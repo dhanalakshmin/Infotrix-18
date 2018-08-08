@@ -656,7 +656,7 @@ h2, h3, h4, h5, h6, figure {
     right: auto;
   }
 }
-#fh5co-gallery-list {
+#gallery-list {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
@@ -671,7 +671,7 @@ h2, h3, h4, h5, h6, figure {
   margin: 0;
   width: 100%;
 }
-#fh5co-gallery-list li {
+#gallery-list li {
   display: block;
   padding: 0;
   margin: 0 0 10px 1%;
@@ -689,18 +689,18 @@ h2, h3, h4, h5, h6, figure {
   border-radius: 7px;
 }
 @media screen and (max-width: 480px) {
-  #fh5co-gallery-list li {
+  #gallery-list li {
     margin-left: 0;
   }
 }
-#fh5co-gallery-list li a {
+#gallery-list li a {
   min-height: 400px;
   padding: 2em;
   position: relative;
   width: 100%;
   display: block;
 }
-#fh5co-gallery-list li a:before {
+#gallery-list li a:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -717,10 +717,10 @@ h2, h3, h4, h5, h6, figure {
   border-radius: 7px;
   background: rgba(0, 0, 0, 0.2);
 }
-#fh5co-gallery-list li a:hover:before {
+#gallery-list li a:hover:before {
   background: rgba(0, 0, 0, 0.5);
 }
-#fh5co-gallery-list li a .case-studies-summary {
+#gallery-list li a .case-studies-summary {
   width: auto;
   bottom: 2em;
   left: 2em;
@@ -729,37 +729,37 @@ h2, h3, h4, h5, h6, figure {
   z-index: 100;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary {
+  #gallery-list li a .case-studies-summary {
     bottom: 1em;
     left: 1em;
     right: 1em;
   }
 }
-#fh5co-gallery-list li a .case-studies-summary span {
+#gallery-list li a .case-studies-summary span {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
 }
-#fh5co-gallery-list li a .case-studies-summary h2 {
+#gallery-list li a .case-studies-summary h2 {
   color: #fff;
   margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary h2 {
+  #gallery-list li a .case-studies-summary h2 {
     font-size: 20px;
   }
 }
-#fh5co-gallery-list li.one-third {
+#gallery-list li.one-third {
   width: 32.3%;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li.one-third {
+  #gallery-list li.one-third {
     width: 49%;
   }
 }
 @media screen and (max-width: 480px) {
-  #fh5co-gallery-list li.one-third {
+  #gallery-list li.one-third {
     width: 100%;
   }
 }
@@ -1015,27 +1015,27 @@ form label {
   /* words */
 }
 
-#fh5co-testimonial,
+#contact-us,
 #fh5co-services,
 #fh5co-started,
 #fh5co-footer,
 #events,
-#fh5co-couple-story,
+#timeline,
 #about-us,
-#fh5co-gallery,
+#gallery,
 .fh5co-section {
   padding: 7em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-testimonial,
+  #contact-us,
   #fh5co-services,
   #fh5co-started,
   #fh5co-footer,
   #events,
-  #fh5co-couple-story,
+  #timeline,
   #about-us,
-  #fh5co-gallery,
+  #gallery,
   .fh5co-section {
     padding: 3em 0;
   }
@@ -1227,24 +1227,24 @@ form label {
   color: rgba(0, 0, 0, 0.4);
 }
 
-#fh5co-testimonial .wrap-testimony {
+#contact-us .wrap-testimony {
   position: relative;
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide {
+#contact-us .wrap-testimony .testimony-slide {
   text-align: center;
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide span {
+#contact-us .wrap-testimony .testimony-slide span {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
   display: block;
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
+#contact-us .wrap-testimony .testimony-slide span a.twitter {
   color: #F14E95;
   font-weight: 300;
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide figure {
+#contact-us .wrap-testimony .testimony-slide figure {
   margin-bottom: 10px;
   display: -moz-inline-stack;
   display: inline-block;
@@ -1253,7 +1253,7 @@ form label {
   width: 100px;
   height: 100px;
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide figure img {
+#contact-us .wrap-testimony .testimony-slide figure img {
   width: 100px;
   height: 100px;
   -webkit-border-radius: 50%;
@@ -1261,7 +1261,7 @@ form label {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
+#contact-us .wrap-testimony .testimony-slide blockquote {
   border: none;
   margin: 30px auto;
   width: 50%;
@@ -1272,30 +1272,30 @@ form label {
   border-radius: 4px;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
+  #contact-us .wrap-testimony .testimony-slide blockquote {
     width: 100%;
   }
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide blockquote p {
+#contact-us .wrap-testimony .testimony-slide blockquote p {
   font-style: italic;
   color: #8f989f;
   font-size: 20px;
   line-height: 1.6em;
 }
-#fh5co-testimonial .wrap-testimony .testimony-slide.active {
+#contact-us .wrap-testimony .testimony-slide.active {
   display: block;
 }
-#fh5co-testimonial .wrap-testimony .arrow-thumb {
+#contact-us .wrap-testimony .arrow-thumb {
   position: absolute;
   top: 40%;
   display: block;
   width: 100%;
 }
-#fh5co-testimonial .wrap-testimony .arrow-thumb a {
+#contact-us .wrap-testimony .arrow-thumb a {
   font-size: 32px;
   color: #dadada;
 }
-#fh5co-testimonial .wrap-testimony .arrow-thumb a:hover, #fh5co-testimonial .wrap-testimony .arrow-thumb a:focus, #fh5co-testimonial .wrap-testimony .arrow-thumb a:active {
+#contact-us .wrap-testimony .arrow-thumb a:hover, #contact-us .wrap-testimony .arrow-thumb a:focus, #contact-us .wrap-testimony .arrow-thumb a:active {
   text-decoration: none;
 }
 

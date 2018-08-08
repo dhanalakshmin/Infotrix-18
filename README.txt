@@ -1,13 +1,13 @@
 
 TITLE: 
-Wedding - 100% Fully Responsive Free HTML5 Bootstrap Template
+Infotrix'18 Website
 
 AUTHOR:
-DESIGNED & DEVELOPED by GetTemplates.co
+DESIGNED & DEVELOPED by A2Z TechStuffs
 
-Website: http://gettemplates.co/
-Twitter: http://twitter.com/gettemplatesco
-Facebook: http://facebook.com/gettemplatesco
+Blog		-	http://a2ztechstuffs.blogspot.in/
+LinkedIn	-	https://www.linkedin.com/in/abdul-katheer-m/
+Facebook	-	https://www.facebook.com/abdul.katheer30
 
 
 CREDITS:
@@ -57,6 +57,4 @@ http://dimsemenov.com/plugins/magnific-popup/
 SimplyCountDown JS
 http://vincentloy.github.io/simplyCountdown.js/
 
-Demo Images:
-http://unsplash.com
 
