@@ -1,7 +1,11 @@
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src: 
+  url("../fonts/icomoon/icomoon.eot?srf3rx");
+  url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), 
+  url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), 
+  url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), 
+  url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -244,7 +248,7 @@ h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-counter,
-#fh5co-event,
+#events,
 .fh5co-bg {
   background-size: cover;
   background-position: top center;
@@ -375,24 +379,24 @@ h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-counter,
-#fh5co-event {
+#events {
   height: 850px;
   float: left;
 }
 #fh5co-counter .display-t,
 #fh5co-counter .display-tc,
-#fh5co-event .display-t,
-#fh5co-event .display-tc {
+#events .display-t,
+#events .display-tc {
   height: 700px;
   display: table;
   width: 100%;
 }
 #fh5co-counter .fh5co-heading h2,
-#fh5co-event .fh5co-heading h2 {
+#events .fh5co-heading h2 {
   color: #fff;
 }
 #fh5co-counter .fh5co-heading span,
-#fh5co-event .fh5co-heading span {
+#events .fh5co-heading span {
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
   font-size: 13px;
@@ -400,7 +404,7 @@ h2, h3, h4, h5, h6, figure {
   font-weight: 600;
 }
 #fh5co-counter .overlay,
-#fh5co-event .overlay {
+#events .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -410,19 +414,19 @@ h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter,
-  #fh5co-event {
+  #events {
     height: inherit;
     padding: 7em 0;
   }
   #fh5co-counter .display-t,
   #fh5co-counter .display-tc,
-  #fh5co-event .display-t,
-  #fh5co-event .display-tc {
+  #events .display-t,
+  #events .display-tc {
     height: inherit;
   }
 }
 #fh5co-counter .event-wrap,
-#fh5co-event .event-wrap {
+#events .event-wrap {
   border: 2px solid rgba(255, 255, 255, 0.5);
   background: rgba(255, 255, 255, 0.1);
   padding: 30px;
@@ -435,12 +439,12 @@ h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter .event-wrap,
-  #fh5co-event .event-wrap {
+  #events .event-wrap {
     margin-bottom: 10px;
   }
 }
 #fh5co-counter .event-wrap h3,
-#fh5co-event .event-wrap h3 {
+#events .event-wrap h3 {
   font-size: 20px;
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -450,18 +454,18 @@ h2, h3, h4, h5, h6, figure {
   letter-spacing: 2px;
 }
 #fh5co-counter .event-wrap p, #fh5co-counter .event-wrap span,
-#fh5co-event .event-wrap p,
-#fh5co-event .event-wrap span {
+#events .event-wrap p,
+#events .event-wrap span {
   display: block;
   color: rgba(255, 255, 255, 0.8);
 }
 #fh5co-counter .event-wrap i,
-#fh5co-event .event-wrap i {
+#events .event-wrap i {
   color: white;
   font-size: 20px;
 }
 #fh5co-counter .event-wrap .event-col,
-#fh5co-event .event-wrap .event-col {
+#events .event-wrap .event-col {
   width: 50%;
   float: left;
   margin-bottom: 30px;
@@ -1015,7 +1019,7 @@ form label {
 #fh5co-services,
 #fh5co-started,
 #fh5co-footer,
-#fh5co-event,
+#events,
 #fh5co-couple-story,
 #about-us,
 #fh5co-gallery,
@@ -1028,7 +1032,7 @@ form label {
   #fh5co-services,
   #fh5co-started,
   #fh5co-footer,
-  #fh5co-event,
+  #events,
   #fh5co-couple-story,
   #about-us,
   #fh5co-gallery,
