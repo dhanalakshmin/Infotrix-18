@@ -15,6 +15,14 @@ font-family: 'avenger';
 	url("../fonts/avenger/avenger.ttf") format("truetype");
 }
 
+@font-face {
+font-family: 'marvel';
+	src:
+	url("../fonts/marvel/marvel.woff") format("woff"),
+	url("../fonts/marvel/marvel.otf") format("opentype"),
+	url("../fonts/marvel/marvel.ttf") format("truetype");
+}
+
 
 body {
   font-family: "Work Sans", Arial, sans-serif;
@@ -77,7 +85,7 @@ h1{
 
 h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: Marvel;
+  font-family: marvel;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
